@@ -1,6 +1,6 @@
 # divideAndConquer
 
-Solutions to exercises from chapter 4 in Grokking Algorithms.
+Solutions to exercises from chapter 4 in Grokking Algorithms. Also includes an implementation of quicksort in Javascript.
 
 ## usage
 
@@ -9,6 +9,7 @@ Solutions to exercises from chapter 4 in Grokking Algorithms.
 
 ### Javascript
 * Run `node divideAndConquer/divideAndConquer.js`
+* Run `node divideAndConquer/quicksort.js`
 
 ### C
 * Compile `clang -O2 -o divideAndConquer divideAndConquer/divideAndConquer.c`
@@ -17,4 +18,4 @@ Solutions to exercises from chapter 4 in Grokking Algorithms.
 
 ## output
 
-Prints out various samples of inputs for the `sum`, `count`, and `max` functions to the console.
+Prints out various samples of inputs for the `sum`, `count`, `max`, and `quicksort` functions to the console.
