@@ -6,6 +6,7 @@ Exercise comes from [cassidoo's newsletter](https://cassidoo.co/newsletter/), [i
 
 ## usage
 * `node fourSum.js`
+* `python3 fourSum.py`
 
 ## output
 
