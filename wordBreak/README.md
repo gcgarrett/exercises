@@ -6,6 +6,7 @@ Exercise comes from [cassidoo's newsletter](https://cassidoo.co/newsletter/), [i
 
 ## usage
 * NodeJS: `node wordBreak.js`
+* Python: `python3 wordBreak.py`
 
 ## output
 Logs solutions to various inputs to the console.
