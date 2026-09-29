@@ -1,12 +1,12 @@
 import datetime
 
-def isSunday(year, month, day):
+def isSunday(year: int, month: int, day: int) -> bool:
     return datetime.date(year, month, day).weekday() == 6
 
-def findFirstSunday(year, month):
+def findFirstSunday(year: int, month: int) -> int:
     return next(day for day in range(1, 7) if isSunday(year, month, day))
 
-def getSundays(year, month):
+def getSundays(year: int, month: int) -> list:
     day = findFirstSunday(year, month)
 
     result = []
